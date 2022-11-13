@@ -1,0 +1,32 @@
+{
+  "name": "food-delivery-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerocho/food-delivery-app.git"
+  },
+  "author": "ZeroCho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerocho/food-delivery-app/issues"
+  },
+  "homepage": "https://github.com/zerocho/food-delivery-app#readme",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "react-native-encrypted-storage": "^4.0.3",
+    "shortid": "^2.2.16",
+    "socket.io": "^4.4.1"
+  }
+}
